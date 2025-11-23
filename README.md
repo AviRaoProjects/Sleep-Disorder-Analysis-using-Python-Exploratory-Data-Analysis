@@ -32,8 +32,8 @@ Columns: *Typically around 10–12*
 import pandas as pd
 
 df = pd.read_csv("Sleep_health_and_lifestyle_dataset.csv")
-df.head()```
-
+df.head()
+```
 💡 Key Insights
 High stress levels strongly correlate with sleep disorders.
 Overweight/Obese BMI groups show higher sleep disorder prevalence.
@@ -46,8 +46,8 @@ Managing stress, maintaining a healthy BMI, and improving physical activity may 
 
 📎 How to Use
 ```pip install pandas numpy matplotlib seaborn
-jupyter notebook```
-
+jupyter notebook
+```
 👤 Author
 Avinash Vidyasagar Rao
 Data Analyst | Python | SQL | Power BI
