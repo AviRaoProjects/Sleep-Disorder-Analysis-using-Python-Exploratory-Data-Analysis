@@ -45,7 +45,8 @@ Sleep disorders are influenced by a combination of lifestyle and health factors.
 Managing stress, maintaining a healthy BMI, and improving physical activity may reduce sleep-related problems.
 
 📎 How to Use
-```pip install pandas numpy matplotlib seaborn
+```
+pip install pandas numpy matplotlib seaborn
 jupyter notebook
 ```
 👤 Author
