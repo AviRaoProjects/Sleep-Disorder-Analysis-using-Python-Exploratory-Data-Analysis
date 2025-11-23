@@ -1,63 +1,54 @@
-Sleep Disorder Analysis — Exploratory Data Analysis (EDA)
+# 😴 Sleep Disorder Analysis using Python (EDA Project)
 
-🧠 Overview:
-This project explores lifestyle, demographic, and health-related factors that contribute to sleep disorders. Using Python-based Exploratory Data Analysis (EDA), the project uncovers meaningful patterns and insights that may help identify individuals at risk and understand the root causes of poor sleep quality.
+## 📌 Overview
+This project explores lifestyle, demographic, and health-related factors linked to **sleep disorders**.  
+Using Python-based Exploratory Data Analysis (EDA), the goal is to uncover how variables such as **stress level, BMI category, sleep duration, physical activity, and health indicators** influence sleep health.
 
-🎯 Project Objective:
-The primary objective of this project is to:
-Analyze the relationship between health metrics (BMI, sleep duration, stress level, etc.) and sleep disorders
-Understand which variables have the strongest influence on sleep problems
-Visualize key patterns using statistical plots
-Derive actionable insights based on data-driven evidence
-This project demonstrates practical data analysis skills relevant to a Data Analyst or Data Scientist role.
+## 🎯 Objectives
+- Analyze factors affecting sleep quality and sleep disorders.
+- Understand correlations among stress, BMI, sleep duration, and physical activity.
+- Visualize patterns using Python libraries.
+- Identify insights that can help understand risk factors.
 
-❓ Problem Statements:
-The analysis aims to answer questions such as:
-Which demographic groups are more prone to sleep disorders?
-Does stress level correlate with sleep problems?
-How does BMI impact sleep quality?
-Do lifestyle factors like physical activity influence sleep health?
-What variables show strong correlation with sleep disorders?
+## 🗂 Dataset Information
+The dataset includes:
+- **Demographics** → Age, Gender, BMI Category  
+- **Health Metrics** → Sleep Duration, Quality of Sleep, Stress Level, Heart Rate, BP  
+- **Lifestyle** → Physical Activity Level  
+- **Target Variable** → Sleep Disorder (Yes/No)
+Rows: *Varies depending on dataset*  
+Columns: *Typically around 10–12*
 
-📊 Dataset Description:
-The dataset includes variables such as:
-Age, Gender, BMI Category, Sleep Duration, Quality of Sleep, Physical Activity Level, Stress Level, Blood Pressure, Sleep Disorder (Target Variable)
-The dataset allows analysis of relationships between lifestyle factors and sleep disorders.
+## 🛠 Technologies Used
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Jupyter Notebook
+- 
+## 🔍 Exploratory Data Analysis
 
-🛠️ Technologies Used:
-Python, Pandas, NumPy, Matplotlib, Seaborn, Jupyter Notebook
+### 📌 Load Dataset
+```python
+import pandas as pd
 
-🔍 Project Workflow:
-1. Data Cleaning -
-Checked datatypes, Handled missing values, Converted categorical variables where necessary
+df = pd.read_csv("Sleep_health_and_lifestyle_dataset.csv")
+df.head()
 
-2. Exploratory Data Analysis -
-Distribution plots, Correlation heatmaps, Boxplots, Relationship exploration between features
+💡 Key Insights
+High stress levels strongly correlate with sleep disorders.
+Overweight/Obese BMI groups show higher sleep disorder prevalence.
+Low physical activity is associated with poor sleep health.
+Sleep duration and sleep quality are major indicators of sleep disorder risk.
 
-3. Insights Extraction -
-Identified trends and patterns affecting sleep disorders
+🏁 Conclusion
+Sleep disorders are influenced by a combination of lifestyle and health factors.
+Managing stress, maintaining a healthy BMI, and improving physical activity may reduce sleep-related problems.
 
-4. Conclusion -
-Summarized data-driven findings
-
-💡 Key Insights:
-Higher stress levels are strongly associated with sleep disorders.
-Individuals with overweight or obese BMI categories showed higher chances of sleep issues.
-Sleep duration and quality of sleep were major indicators of sleep disorder presence.
-Lower physical activity levels correlated with poorer sleep quality.
-Blood pressure variations also showed patterns associated with sleep disorders.
-
-📝 Conclusion:
-This project highlights the importance of analyzing health and lifestyle factors to understand sleep-related problems. The findings suggest:
-Stress management plays a crucial role in sleep health.
-Maintaining a healthy BMI can reduce sleep disorder risk.
-Consistent physical activity improves sleep quality.
-The project showcases practical EDA skills and can be used as a strong portfolio addition for data analysis roles.
-
-🚀 How to Run This Project:
-pip install -r requirements.txt
+📎 How to Use
+```pip install pandas numpy matplotlib seaborn
 jupyter notebook
 
-
-Open the notebook:
-Sleep_Disorder_final.ipynb
+👤 Author
+Avinash Vidyasagar Rao
+Data Analyst | Python | SQL | Power BI
+GitHub: https://github.com/AviRaoProjects
