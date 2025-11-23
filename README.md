@@ -49,6 +49,6 @@ Managing stress, maintaining a healthy BMI, and improving physical activity may 
 jupyter notebook
 ```
 👤 Author
-Avinash Vidyasagar Rao
-Data Analyst | Python | SQL | Power BI
+Avinash Vidyasagar Rao  
+Data Analyst | Python | SQL | Power BI  
 GitHub: https://github.com/AviRaoProjects
