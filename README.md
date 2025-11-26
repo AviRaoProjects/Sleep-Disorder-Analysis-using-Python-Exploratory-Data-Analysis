@@ -24,8 +24,7 @@ Columns: *Typically around 10–12*
 - Pandas, NumPy  
 - Matplotlib, Seaborn  
 - Jupyter Notebook
-- 
-## Exploratory Data Analysis
+- Exploratory Data Analysis
 
 ### Load Dataset
 ```python
